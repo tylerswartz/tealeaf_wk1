@@ -44,5 +44,15 @@
 #number.uniq!
 #puts number
 
-#h = {a:1, b:2, c:3, d:4}
-hash["a",1,"b",2,"c",3,"d",4]
+
+#hash = {a:1, b:2, c:3, d:4}
+#hash["b"]
+
+#h = {:a => "1",:b => "2",:c => "3",:d =>"4"}
+
+#h = {a:1, b:2, c:3, d:4, e:5}
+#h.delete_if {|key, value| value < 3.5 }  
+#puts h 
+
+array = [{a:1, b:2},{c:3,d:6},{g:8,u:7}]
+puts array
